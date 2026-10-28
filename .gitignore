@@ -1,0 +1,13 @@
+# Binaries and executables
+*.out
+*.exe
+Lab2/prob2
+Lab2/prob2mod
+Lab2/prob3a
+Lab2/prob3b
+p4try
+p1a
+p1
+
+# IDE settings
+.vscode/
