@@ -1,0 +1,11 @@
+T1 found: count=1 lexemme=abb 
+T2 found: count=1 lexemme=c 
+T2 found: count=2 lexemme=aaaccc 
+Character b is either not a lexeme or not in Alphabet : count=1 
+Character b is either not a lexeme or not in Alphabet : count=2 
+Character b is either not a lexeme or not in Alphabet : count=3 
+T2 found: count=3 lexemme=ac 
+T1 found: count=2 lexemme=a 
+Statistics of tokens in input:
+ |Token1|=2; |Token2|=3; |AllTokens|=5
+No. of characters that are not lexemes/not in alphabet : 3

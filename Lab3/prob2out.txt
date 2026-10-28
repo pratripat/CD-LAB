@@ -1,0 +1,92 @@
+Pre Processor Directive Ignored: #include <stdio.h>
+Pre Processor Directive Ignored: #define x 10
+(Token,Lexeme)=(KEYWORD,int)
+(Token,Lexeme)=(IDENTIFIER,main)
+(Token,Lexeme)=(LEFTPAR,'(')
+(Token,Lexeme)=(RIGHTPAR,')')
+(Token,Lexeme)=(LEFTPAR,'{')
+Single Line Comment:"// sample C program for testing lexical analyser"
+(Token,Lexeme)=(KEYWORD,int)
+(Token,Lexeme)=(IDENTIFIER,i)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(HEXA NUMBER,0x40)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(KEYWORD,long)
+(Token,Lexeme)=(IDENTIFIER,sum)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(INTEGER,999999999999999)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(KEYWORD,char)
+(Token,Lexeme)=(IDENTIFIER,_ch_1)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(CHARACTER LITERAL,'@')
+(Token,Lexeme)=(DELIMITER,';')
+Single Line Comment:"// inline comment"
+(Token,Lexeme)=(KEYWORD,char)
+(Token,Lexeme)=(IDENTIFIER,str)
+(Token,Lexeme)=(LEFTPAR,'[')
+(Token,Lexeme)=(INTEGER,20)
+(Token,Lexeme)=(RIGHTPAR,']')
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(STRING ,"Scanner ")
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(IDENTIFIER,sum)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(IDENTIFIER,i)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(KEYWORD,for)
+(Token,Lexeme)=(LEFTPAR,'(')
+(Token,Lexeme)=(KEYWORD,int)
+(Token,Lexeme)=(IDENTIFIER,j)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(INTEGER,0)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(IDENTIFIER,j)
+(Token,Lexeme)=(RELATIONAL_OP ,<)
+(Token,Lexeme)=(INTEGER,10)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(IDENTIFIER,j)
+(Token,Lexeme)=(ARITHMETIC_OP ,+)
+(Token,Lexeme)=(ARITHMETIC_OP ,+)
+(Token,Lexeme)=(RIGHTPAR,')')
+(Token,Lexeme)=(IDENTIFIER,sum)
+(Token,Lexeme)=(ASSIGN_OP,'=')
+(Token,Lexeme)=(IDENTIFIER,sum)
+(Token,Lexeme)=(ARITHMETIC_OP ,+)
+(Token,Lexeme)=(IDENTIFIER,j)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(IDENTIFIER,printf)
+(Token,Lexeme)=(LEFTPAR,'(')
+(Token,Lexeme)=(STRING ," sum = %ld str = %s\n")
+(Token,Lexeme)=(DELIMITER,',')
+(Token,Lexeme)=(IDENTIFIER,sum)
+(Token,Lexeme)=(DELIMITER,',')
+(Token,Lexeme)=(IDENTIFIER,str)
+(Token,Lexeme)=(RIGHTPAR,')')
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(IDENTIFIER,printf)
+(Token,Lexeme)=(LEFTPAR,'(')
+(Token,Lexeme)=(STRING ," _ch_1 = %c \n")
+(Token,Lexeme)=(DELIMITER,',')
+(Token,Lexeme)=(IDENTIFIER,_ch_1)
+(Token,Lexeme)=(RIGHTPAR,')')
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(KEYWORD,return)
+(Token,Lexeme)=(INTEGER,0)
+(Token,Lexeme)=(DELIMITER,';')
+(Token,Lexeme)=(RIGHTPAR,'}')
+
+Display Statistics of Tokens in Input
+
+Number of keywords : 8
+Number of identifiers : 18
+Number of integers : 5
+Number of assign operators : 7
+Number of aritmetic operators : 3
+Number of relational operators : 1
+Number of left parenthesis : 6
+Number of right parenthesis : 6
+Number of delimiters : 14
+Number of single line comments : 2
+Number of character literals : 1
+Number of string literals : 3
